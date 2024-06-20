@@ -1,0 +1,15 @@
+@media (max-width: 576px) {
+  .navi{
+    font-size: 5px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 858px) {
+  .navi {
+    font-size: 10px; 
+  }
+}
+
+
+  
+  

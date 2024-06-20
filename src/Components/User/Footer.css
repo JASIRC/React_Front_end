@@ -1,0 +1,14 @@
+.fs-6 {
+    font-size: 1.25rem; /* Base font size */
+  }
+  
+  .fs-sm-5 {
+    font-size: 1vw; /* Smaller size based on viewport width */
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .Col {
+      flex-grow: 1; /* Equal width for all columns on smaller screens */
+    }
+  }
+  
