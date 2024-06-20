@@ -1,15 +1,35 @@
+.navi {
+  width: 100%;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+}
+
 @media (max-width: 576px) {
-  .navi{
-    font-size: 5px;
+  .navbar-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 0;
+  }
+
+  .navbar-collapse {
+    background-color: rgb(199 121 44 / 29%); 
   }
 }
 
-@media (min-width: 400px) and (max-width: 858px) {
-  .navi {
-    font-size: 10px; 
+@media (max-width: 768px) {
+  .navbar-input {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .navbar-button {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-top: 10px !important;
   }
 }
-
-
-  
-  

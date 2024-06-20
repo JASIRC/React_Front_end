@@ -29,7 +29,7 @@ const Footer = () => {
     <div>
       <div>
         <img
-          src="./Capture.JPG"
+          src="/Capture.JPG"
           alt="footer"
           style={{ width: "100%" }}
           onClick={() => navigate("/products")}
@@ -58,7 +58,6 @@ const Footer = () => {
                 <u>ONLINE SHOPPING</u>
               </b>
             </h5>
-            <br />
             <p>
               Dogs <br />
               Cats <br />
@@ -76,7 +75,6 @@ const Footer = () => {
                 <u>EXPLORE</u>
               </b>
             </h5>
-            <br />
             <p>
               Our story <br />
               FAQs <br />
@@ -95,7 +93,6 @@ const Footer = () => {
                 <u>QUICK LINKS</u>
               </b>
             </h5>
-            <br />
             <p>
               My Account <br />
               Track Your Order <br />

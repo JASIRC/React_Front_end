@@ -33,20 +33,16 @@ function Search() {
   };
 
   return (
-    <div
-      style={{
-        backgroundColor: "rgb(199 121 44 / 29%)",
-        borderRadius: "200px",
-        width: "100%",
-        height: "30%",
-      }}
-    >
-      <Navbar expand="md" className="body-primary ">
+    <div style={{
+      backgroundColor: "rgb(199 121 44 / 29%)",
+      borderRadius: "200px",
+      width: "100%",
+    }}>
+      <Navbar expand="md" className="body-primary">
         <img
           src={"/Cado.png"}
           alt="CADO"
           style={{
-            
             width: "140px",
             marginLeft: "70px",
             marginTop: "-18px",

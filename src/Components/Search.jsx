@@ -15,7 +15,7 @@ const Search = () => {
       return item;
     } else {
       return "";
-    }
+    } 
   });
   return (
     <>
@@ -39,7 +39,7 @@ const Search = () => {
             {Search.map((item) => (
               <Card
                 onClick={() => {
-                  navigate(`/Viewproduct/${item.Id}`);
+                  navigate(`/Viewproduct/${item.id}`);
                 }}
                 key={item.Id}
                 className="m-2"
@@ -75,7 +75,7 @@ const Search = () => {
                       fontSize: "1.2rem",
                       fontWeight: "bold",
                       marginTop: "0.5rem",
-                    }}
+                    }}  
                   >
                     {item.title}
                   </Card.Title>
@@ -88,7 +88,7 @@ const Search = () => {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer/>
     </>
   );
 };
